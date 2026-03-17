@@ -30,6 +30,6 @@ The score is internally converted into Coursera's required fraction out of 1.0, 
 
 - [PL cgrader source code](https://github.com/PrairieLearn/PrairieLearn/tree/master/graders/c)
 - [PL cgrader Docker image](https://hub.docker.com/r/prairielearn/grader-c)
-- [PL documentation on the cgrader](https://docs.prairielearn.com/c-grader/)
+- [PL cgrader documentation](https://docs.prairielearn.com/c-grader/)
 - [Coursera's autograder testing tool](https://github.com/coursera/coursera_autograder)
-- [Coursera's documentation on their V2 feedback specification](https://github.com/coursera/programming-assignments-demo/tree/master/custom-graders)
+- [Coursera's V2 autograder feedback specification](https://github.com/coursera/programming-assignments-demo/tree/master/custom-graders)
