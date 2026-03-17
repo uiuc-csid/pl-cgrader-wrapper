@@ -1,6 +1,6 @@
 # PrairieLearn cgrader wrapper for Coursera
 
-This is a basic wrapper around the PrairieLearn project's `cgrader`, a framework for grading C and C++ assignments. This wrapper helps you adapt your existing PrairieLearn questions to Coursera.
+This is a basic wrapper around the PrairieLearn project's `cgrader` (also referred to as `grader-c` or `c-grader` in various PrairieLearn repositories), which is a framework for autograding C and C++ programming assignments. This wrapper helps you adapt your existing PrairieLearn-format programming questions for deployment on Coursera.
 
 ## Using a single question's tests
 
@@ -25,3 +25,11 @@ Currently, the wrapper does not support advanced feeback such as bundled image f
 The feedback is provided as plain text only.
 
 The score is internally converted into Coursera's required fraction out of 1.0, although students might see this post-multiplied by the number of points you specify in your grading rubric for the assignment on Coursera.
+
+## References
+
+- (PL cgrader source code)[https://github.com/PrairieLearn/PrairieLearn/tree/master/graders/c]
+- (PL cgrader Docker image)[https://hub.docker.com/r/prairielearn/grader-c]
+- (PL documentation on the cgrader)[https://docs.prairielearn.com/c-grader/]
+- (Coursera's autograder testing tool)[https://github.com/coursera/coursera_autograder]
+- (Coursera's documentation on their V2 feedback specification)[https://github.com/coursera/programming-assignments-demo/tree/master/custom-graders]
