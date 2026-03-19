@@ -10,9 +10,9 @@ The PL cgrader generally expects to find the file `tests/test.py`. Naming the fi
 
 ## Building the grader
 
-After you have placed the test files, use the provided script `make-grader-build-zip.sh` to create a zip file containing a Docker recipe that you can upload to Coursera in the edit sreen for your specific programming assignment. The zip will contain the wrapper scripts and your question's test files. After you upload the build zip, Coursera should handle the build step automatically in its cloud infrastructure. When it finishes building, you can publish the assignment and test it in the student view mode.
+After you have placed the test files, use the provided script `make-grader-build-zip.sh` to create a zip file containing a Docker recipe that you can upload to Coursera in the edit screen for your specific programming assignment. The zip will contain the wrapper scripts and your question's test files. After you upload the build zip, Coursera should handle the build step automatically in its cloud infrastructure. When it finishes building, you can publish the assignment and test it in the student view mode.
 
-You will need to create a separate build zip for each PL question that you wish to adapt, switching the the contents of the `tests` directory before generating each zip.
+You will need to create a separate build zip for each PL question that you wish to adapt, switching the contents of the `tests` directory before generating each zip.
 
 ## Student submission format
 
